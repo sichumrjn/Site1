@@ -1,0 +1,190 @@
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box; 
+}
+body{
+	background: url(../image/back.png);
+}
+.container{
+	width: 1280px;
+	margin: auto;
+	background-color: #fff;
+	
+}
+.top{
+	height: 150px;
+}
+.ltop{
+	float: left;
+	width: 30%;
+	padding:30px 10px;
+}
+.rtop{
+	float: right;
+	width:70%;
+	padding:20px 10px;
+}
+.n
+{
+	background: #32549a;
+	padding:10px 10px;
+	margin: 0px 10px;
+	border-radius:4px; 
+}
+nav ul
+{
+	list-style: none;
+}
+nav ul li
+{
+	display: inline;
+}
+nav ul li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 15px 12px;
+}
+nav ul li:hover,.active
+{
+	background: red;
+	padding: 10px;
+	border: 1px solid red;
+}
+.clc
+{
+	clear: both;
+}
+.ads
+{
+	padding:10px;
+}
+.ads h6{
+	text-align: center;
+	font-size: 100px;
+	color: red;
+}
+hr{
+	color:blue;
+}
+.middle
+{
+	margin: 10px;
+	width: 1260px;
+	height:900px;
+	position: relative;
+}
+.lmiddle
+{
+	float: left;
+	padding: 10px;
+}
+h2:hover{
+	color: red;
+}
+.box{
+	padding:10px;
+	position: absolute;
+	width: 70%
+}
+.box2{
+	padding:10px;
+	width:100%
+}
+.rmiddle
+{
+	float: right;
+	padding: 10px;
+	right: 0px;
+}
+.bisesh,.mukhya
+{
+	background:#cccccc;
+	padding:10px 10px;
+	margin: 10px 10px;
+	border-radius:4px; 
+	width: 100%;
+	color: #32549a;
+}
+.lkhabar{
+	float: left;
+}
+.rkhabar{
+	float: right;
+}
+.l{
+	float: left;
+	margin:10px;
+	margin-top:20px;
+}
+.l h3{
+	font-size:25px;
+	color: #32549a;
+	padding-top:20px; 
+}
+.l p
+{
+	text-align: justify;
+	font-size: 18px;
+	padding-top:20px; 
+}
+.r{
+	float: right;
+	margin-right:10px;
+	margin-top: 20px; 
+}
+.list{
+	background: #cccccc;
+	float: right;
+	line-height: 50px;
+	padding-left: 10px;
+}
+.list ul
+{
+	list-style: none;
+}
+.list ul li a{
+	color: #32549a;
+	text-decoration: none;
+	font-size: 16px;
+}
+.list ul li a:hover
+{
+	text-decoration: underline;
+}
+.ads2{
+	margin: 10px;
+}
+table td
+{
+	color: #32549a;
+	font-size:20px;
+	padding: 10px;
+}
+.footer{
+	background: #32549a;
+	list-style: none;
+	float: left;
+	width: 100%;
+}
+.footer li
+{
+	display: inline;
+	border-right: 1px solid white;
+	float: left;
+	margin:50px 20px; 
+}
+.footer li a
+{
+	color: #fff;
+	text-decoration: none;
+	padding:20px;
+}
+.footer p
+{
+	float: right;
+	padding:50px 100px;
+	line-height:30px;
+	color: white;
+}
